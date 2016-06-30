@@ -4,7 +4,7 @@ const Bot = require('messenger-bot')
 
 let bot = new Bot({
   token: 'PAGE_TOKEN',
-  verify: 'VERIFY_TOKEN'
+  verify: 'verify_token'
 })
 
 bot.on('error', (err) => {
