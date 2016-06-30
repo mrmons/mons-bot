@@ -1,0 +1,23 @@
+{
+  "name": "mons-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "messenger-bot": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmons/mons-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrmons/mons-bot/issues"
+  },
+  "homepage": "https://github.com/mrmons/mons-bot#readme"
+}
