@@ -3,8 +3,9 @@ const http = require('http')
 const Bot = require('messenger-bot')
 
 let bot = new Bot({
-  token: 'PAGE_TOKEN',
-  verify: 'verify_token'
+  token: 'b34bc376efff799305c4d646126165f7',
+  verify: 'verify_token',
+  app_secret: 'eb68d8926173036941bf7aecd98eee54'
 })
 
 bot.on('error', (err) => {
@@ -25,4 +26,5 @@ bot.on('message', (payload, reply) => {
   })
 })
 
-http.createServer(bot.middleware()).listen(3000)
+http.createServer(bot.middleware()).listen()
+//console.log('Echo bot server running at port 3000.')
