@@ -3,7 +3,7 @@ const http = require('http')
 const Bot = require('messenger-bot')
 
 let bot = new Bot({
-  token: '209959516066628|mGnLX20e24tQd-nvoxzfWtTW9os',
+  token: 'EAACZB9QJfU0QBAPqTJZAgr1PicDxZBOCUWKZB6ZBNdqtikLLIKkIMc0TJzTRDSVcbWdQdx02ZC3qurTJMCWLPHmWZB8FVK1qqfTIXnY1VoDjks6WiqrZAMa1tRQaZCifaylztFB4jFfqWkZAqpxjPeYNXe2QoxL6dQFlBPZCMSCkfqj2AZDZD',
   verify: 'verify_token',
   app_secret: 'eb68d8926173036941bf7aecd98eee54'
 })
