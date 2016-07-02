@@ -31,7 +31,7 @@ app.listen(app.get('port'), function() {
     console.log('running on port', app.get('port'))
 })
 
-const token = "EAACZB9QJfU0QBAPjr0V0hF4a8aGeHIF0gAvxYttmCWF0wq4ZB9ZC9zyM4HQUG3jXq7IkZBZC2Dt6hqARmpVb1M6DDrOMbx2bQfJk5a8AOoQJZCLxlrxNFGZA4ZA5EPy7HZBGNG5xGRZCJUIvGrRrnlAqIm3pnDa9EXCg4ejc9ed4fx4QZDZD"
+const token = "EAACZB9QJfU0QBAEocobfftcSjlqa5Wdt6gAIxZCNF9Ah6P4VxMdP66nd6bQorZBWrWNYZAQAn5uZAwZBcmAZBKDIO56kZAx3TdXnrzO3m3Nw6wfBQ1WMTyJUVKEX1idJwC1OwTBwMppilqtDz49NEzoGdFleEDaCRFF3qSyZCPcWjxQZDZD"
 
 function sendTextMessage(sender, text) {
     let messageData = { text:text }
