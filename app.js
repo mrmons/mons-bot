@@ -145,11 +145,7 @@ function kittenMessage(recipientId, text) {
 
 };
 
-if (event.message && event.message.text) {
-    if (!kittenMessage(event.sender.id, event.message.text)) {
-        sendMessage(event.sender.id, {text: "Echo: " + event.message.text});
-    }
-}
+
 
 app.post('/webhook/', function (req, res) {
     let messaging_events = req.body.entry[0].messaging
@@ -165,5 +161,11 @@ app.post('/webhook/', function (req, res) {
             sendTextMessage(sender, "Text received, echo: " + text.substring(0, 200))
         }
     }
+
+    if (event.message && event.message.text) {
+    if (!kittenMessage(event.sender.id, event.message.text)) {
+        sendMessage(event.sender.id, {text: "Echo: " + event.message.text});
+    }
+}
     res.sendStatus(200)
 })
